@@ -1,0 +1,48 @@
+.container {
+    width: 540px;
+    height: 332px; 
+    margin: 13% auto;
+    background-color: #313A48;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adviceIdCont {
+    color: #53FFAA;
+    letter-spacing: 4.09px;
+    font-family: 'Manrope', sans-serif;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+.adviceCont {
+    color: #CEE3E9;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    word-spacing: -0.3px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.divider {
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.adviceButton {
+    background-color: #53FFAA;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-width: 0;
+    transition: all 0.2s ease-in-out;
+    margin: -33px auto;
+}
+
+.adviceButton:hover {
+    background-color: #53FFAA;
+    box-shadow: 0 0 30px 5px #53FFAA;
+}
